@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="128" height="32" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" source="RetroHookTileset.tsx"/>
+ <layer name="background" width="128" height="32">
+  <data encoding="base64" compression="zlib">
+   eJztw0ENAAAMA6Grf9OTsQ8krJqqqqqqqqqqqqqqqqqqqqr6+gB+ABAB
+  </data>
+ </layer>
+ <layer name="graphics" width="128" height="32">
+  <data encoding="base64" compression="zlib">
+   eJzt1MEKg1AQQ9FBWqX//8N14V4fji/B3MChGwvTRLpU1QIAAAAAAAAAAAAEcYi6g2QOSf3djrnaVfdzV7/L/jlh/+ywf3bYPzvsnx32z8tn992t5b1/93t0dl/K+7sdn7/y3J//k2cza3+1zjjcMBp1/w664nDDaNTdu+iIww2jUffu5G4cbhiNunM3Dl3OjLpvRw5dzoq6a1cOXc6Iume83x+JGBYg
+  </data>
+ </layer>
+ <objectgroup name="exit" width="128" height="32">
+  <object x="1760" y="352" width="16" height="32"/>
+ </objectgroup>
+ <objectgroup name="ground" width="128" height="32">
+  <object x="96" y="384" width="528" height="16"/>
+  <object x="336" y="384" width="32"/>
+  <object x="336" y="368" width="96" height="16"/>
+  <object x="368" y="352" width="32" height="16"/>
+  <object x="704" y="496" width="224" height="16"/>
+  <object x="688" y="352" width="64" height="16"/>
+  <object x="816" y="352" width="64" height="16"/>
+  <object x="928" y="400" width="16" height="112"/>
+  <object x="96" y="240" width="16" height="144"/>
+  <object x="96" y="224" width="1072" height="16"/>
+  <object x="1152" y="208" width="16" height="16"/>
+  <object x="1152" y="192" width="560" height="16"/>
+  <object x="1696" y="208" width="16" height="16"/>
+  <object x="1696" y="224" width="112" height="16"/>
+  <object x="1792" y="240" width="16" height="160"/>
+  <object x="1648" y="384" width="144" height="16"/>
+  <object x="1648" y="400" width="16" height="112"/>
+  <object x="1232" y="496" width="416" height="16"/>
+  <object x="928" y="384" width="224" height="16"/>
+  <object x="1232" y="240" width="80" height="16"/>
+  <object x="1392" y="240" width="80" height="16"/>
+  <object x="1552" y="240" width="80" height="16"/>
+  <object x="608" y="400" width="32" height="16"/>
+  <object x="624" y="416" width="32" height="16"/>
+  <object x="640" y="432" width="32" height="16"/>
+  <object x="656" y="448" width="32" height="16"/>
+  <object x="672" y="464" width="32" height="16"/>
+  <object x="688" y="480" width="32" height="16"/>
+  <object x="1136" y="400" width="32" height="16"/>
+  <object x="1152" y="416" width="32" height="16"/>
+  <object x="1168" y="432" width="32" height="16"/>
+  <object x="1184" y="448" width="32" height="16"/>
+  <object x="1200" y="464" width="32" height="16"/>
+  <object x="1216" y="480" width="32" height="16"/>
+ </objectgroup>
+ <objectgroup name="moving_platform" width="128" height="32" opacity="0.9"/>
+</map>

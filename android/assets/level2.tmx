@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="128" height="64" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="RetroHookTileset" tilewidth="16" tileheight="16" spacing="2" margin="2">
+  <image source="RetroHookTileset.png" width="54" height="72"/>
+ </tileset>
+ <layer name="background" width="128" height="64">
+  <data encoding="base64" compression="zlib">
+   eJztwwENAAAMw6DOv+kLOSSsmqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqo+fzgPIAE=
+  </data>
+ </layer>
+ <layer name="graphics" width="128" height="64">
+  <data encoding="base64" compression="zlib">
+   eJzt0ssKwkAQBMAl+MD//2Fz8CiIkrVnstVQ5Jrtnm2MsQEAAAAAAAAAAAAAAAA08U3S/4r9sT/25//7d02648pWSLrjylZIuuPKVki648pWSLrjylZIuuPKVki648pWSLrjys6ay+66u418x5WdNffX9zHyHVd21tj/+P273FO6006O7rVC0p12cnSvFZLutJOje62Q2T2smi492n9OuvRo/znp0qP956RLj/afky492n9OuvRo/zn5pdcu5HPSG9k/m/RG9s8mvZH93yfdHdkbS7+L7A2k30T2BtLvIXsD6beQvYH0OwCgsiey5jEs
+  </data>
+ </layer>
+ <objectgroup name="exit" width="128" height="64">
+  <object x="1984" y="624" width="16" height="32"/>
+ </objectgroup>
+ <objectgroup name="ground" width="128" height="64">
+  <object x="96" y="720" width="16" height="176"/>
+  <object x="96" y="896" width="416" height="16"/>
+  <object x="496" y="912" width="32" height="16"/>
+  <object x="512" y="928" width="32" height="16"/>
+  <object x="528" y="944" width="32" height="16"/>
+  <object x="544" y="960" width="32" height="16"/>
+  <object x="560" y="976" width="320" height="16"/>
+  <object x="864" y="896" width="16" height="80"/>
+  <object x="96" y="704" width="1008" height="16"/>
+  <object x="864" y="880" width="432" height="16"/>
+  <object x="1280" y="672" width="16" height="208"/>
+  <object x="2016" y="480" width="16" height="192"/>
+  <object x="1952" y="656" width="64" height="16"/>
+  <object x="1952" y="672" width="16" height="160"/>
+  <object x="1408" y="816" width="544" height="16"/>
+  <object x="1280" y="656" width="144" height="16"/>
+  <object x="1408" y="672" width="16" height="144"/>
+  <object x="1088" y="416" width="16" height="288"/>
+  <object x="1088" y="400" width="208" height="16"/>
+  <object x="1280" y="416" width="16" height="48"/>
+  <object x="1280" y="464" width="752" height="16"/>
+ </objectgroup>
+ <objectgroup name="moving_platform" width="128" height="64">
+  <object x="528" y="768" width="64" height="16">
+   <properties>
+    <property name="bottom" value="34.0"/>
+    <property name="leftside" value="33.0"/>
+    <property name="pause" value="30.0"/>
+    <property name="rightside" value="52.0"/>
+    <property name="top" value="30.0"/>
+    <property name="xspeed" value="1.0"/>
+    <property name="yspeed" value="0.0"/>
+   </properties>
+  </object>
+  <object x="1152" y="768" width="64" height="16">
+   <properties>
+    <property name="bottom" value="52.0"/>
+    <property name="leftside" value="70.0"/>
+    <property name="pause" value="60.0"/>
+    <property name="rightside" value="77.0"/>
+    <property name="top" value="26.0"/>
+    <property name="xspeed" value="0.0"/>
+    <property name="yspeed" value="1.0"/>
+   </properties>
+  </object>
+  <object x="1456" y="784" width="48" height="16">
+   <properties>
+    <property name="bottom" value="52.0"/>
+    <property name="leftside" value="90.0"/>
+    <property name="pause" value="60.0"/>
+    <property name="rightside" value="94.0"/>
+    <property name="top" value="41.0"/>
+    <property name="xspeed" value="0.0"/>
+    <property name="yspeed" value="0.5"/>
+   </properties>
+  </object>
+  <object x="1456" y="624" width="64" height="16">
+   <properties>
+    <property name="bottom" value="25.0"/>
+    <property name="leftside" value="90.0"/>
+    <property name="pause" value="0.0"/>
+    <property name="rightside" value="104.0"/>
+    <property name="top" value="22.0"/>
+    <property name="xspeed" value="1.0"/>
+    <property name="yspeed" value="0.0"/>
+   </properties>
+  </object>
+  <object x="1872" y="496" width="64" height="16">
+   <properties>
+    <property name="bottom" value="16.0"/>
+    <property name="leftside" value="107.0"/>
+    <property name="pause" value="0.0"/>
+    <property name="rightside" value="121.0"/>
+    <property name="top" value="14.0"/>
+    <property name="xspeed" value="1.0"/>
+    <property name="yspeed" value="0.0"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
